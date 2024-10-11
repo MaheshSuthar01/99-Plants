@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+}
+
+#btnAdmin {
+    margin-left: .7rem;
+    font-size: 2rem;
+    background-color: white;
+    font-weight: 500;
+    color: #666;
+    cursor: pointer;
+}
+
+    #btnAdmin:hover {
+        color: var(--green);
+    }
+
+.icons i,
+.btnCart i {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #666;
+}
+
+.manage {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #666;
+    margin-left: 1rem;
+    width: 102px;
+}
+
+.btnCart,
+.btnWishlist,
+.btnManage{
+    background-color:transparent;
+    color:#666;
+    font-size: 2rem;
+    margin-right: 1rem;
+    font-weight:500;
+    margin-left:.5rem;
+}
+i:hover{
+    color:var(--green);
+    cursor:pointer;
+}
+.btnWishlist{
+    margin-right:2.5rem;
+  
+}
+.btnCart:hover,
+.btnWishlist:hover,
+.btnManage:hover{
+    color:var(--green);
+    cursor:pointer;
+}

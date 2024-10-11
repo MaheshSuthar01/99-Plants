@@ -1,0 +1,62 @@
+﻿body{
+    margin:0;
+    padding:0;
+}
+.productCon{
+    margin-left:250px;
+    position:fixed;
+    height:610px;
+    width:1290px;
+}
+.productCon h3{
+    position:fixed;
+    margin-left:520px;
+    font-size:3rem;
+    margin-top:30px;
+}
+.productCon hr{
+    margin-top:70px;
+}
+.productCon .lblCategory,
+.productCon .lblQuantity{
+    margin-left:450px;
+    margin-top:30px;
+    font-size:2rem;
+    position:fixed;
+    color:#666;
+    font-weight:600;
+}
+
+.productCon .txtQuantity,
+.productCon .ddlCategory{
+    border:1px solid;
+    margin-left:600px;
+    margin-top:30px;
+    height:25px;
+    width:250px;
+    border-radius:2px;
+}
+.productCon .btnAddQuantity{
+    margin-left:570px;
+    margin-top:50px;
+    height:40px;
+    width:200px;
+    border:1px solid black;
+    border-radius:3px;
+    background-color:green;
+    color:white;
+    font-size:2rem;
+}
+.productCon .btnAddQuantity:hover{
+    background-color:white;
+    cursor:pointer;
+    color:green;
+    border-color:green;
+    font-weight:500;
+    border:2px solid;
+}
+ .gridviewQuantity {
+   
+    position:fixed;
+    font-size:20px;
+}

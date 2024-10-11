@@ -1,0 +1,23 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+h2{
+    font-weight:500;
+    color:yellow;
+    font-size:25px;
+    margin-top:90px;
+    text-align:center;
+}
+.managecon{
+    background-color:#3A9943;
+    height:609px;
+    width:250px;
+    position:fixed;
+}
+.managecon span{
+    color:white;
+    font-weight:500;
+    margin-left:80px;
+    font-size:20px;
+}

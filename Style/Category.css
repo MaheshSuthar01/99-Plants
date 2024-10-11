@@ -1,0 +1,63 @@
+﻿body {
+    margin:0;
+    padding:0;
+}
+.CategoryCon{
+    margin-left:250px;
+    position:fixed;
+}
+.CategoryCon h3{
+    position:fixed;
+    margin-left:520px;
+    font-size:3rem;
+    margin-top:30px;
+}
+.CategoryCon .lblCategoryName{
+    margin-left:400px;
+    margin-top:100px;
+    font-size:2rem;
+    position:fixed;
+    color:#666;
+    font-weight:600;
+}
+.CategoryCon .txtCategoryName{
+    border:1px solid;
+    margin-left:550px;
+    margin-top:100px;
+    height:25px;
+    width:250px;
+    border-radius:2px;
+    
+}
+.CategoryCon .btnAddCategory{
+    margin-left:520px;
+    margin-top:50px;
+    height:40px;
+    width:200px;
+    border:1px solid black;
+    border-radius:3px;
+    background-color:green;
+    color:white;
+    font-size:2rem;
+}
+.CategoryCon .btnAddCategory:hover{
+    background-color:white;
+    cursor:pointer;
+    color:green;
+    border-color:green;
+    font-weight:500;
+    border:2px solid;
+}
+
+.gridviewcategory {
+    margin-left: 246px;
+    margin-top: 350px;
+    width: 500px;
+    position:fixed;
+    font-size:20px;
+}
+#Label5{
+    margin-left: 250px;
+    margin-top: 550px;
+    position:fixed;
+}
