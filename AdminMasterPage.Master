@@ -1,0 +1,87 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMasterPage.master.cs" Inherits="PLANTS.AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Plants</title>
+     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- swiper CDN link -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome CDN link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="Style/Defualt.css" />
+    <link rel="stylesheet" href="Style/admin.css"/>
+    
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+        <!-- header section starts  -->
+
+<header>
+
+    <div class="header-1">
+
+        <a href="Manage/manage.aspx" class="logo"> <i class="fas fa-seedling"></i> Plants </a>
+
+        <div class="search-bar-container">
+            <form action="#" >
+              <asp:TextBox ID="search_bar" runat="server" placeholder="search here..."></asp:TextBox>
+              <asp:Button  ID="searchbarbtn" runat="server" Text="Search" CssClass="searchbar" />
+
+            </form>
+        </div>
+        
+
+    </div>
+
+    <div class="header-2">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#category">category</a>
+            <a href="#product">product</a>
+            <a href="#deal">deal</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+           
+            
+            <asp:Button ID="btnManage" runat="server" Text="Manage"  CssClass="btnManage" OnClick="btnManage_Click"/>
+            <i class="fa fa-sign-out-alt"></i>
+            <asp:Button ID="btnAdmin" runat="server" Text="Sign out" OnClick="btnAdmin_Click" />
+            <i class="fa fa-user"></i>
+            <asp:Label ID="user" runat="server" CssClass="lblUserName"></asp:Label>
+        </div>
+
+    </div>
+
+</header>
+
+<!-- header section ends -->
+        <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+        </div>
+
+
+    </div>
+    </form>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+</html>
